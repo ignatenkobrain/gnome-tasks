@@ -1,0 +1,16 @@
+<schemalist>
+  <schema id="org.gnome.tasks" path="/org/gnome/tasks/" gettext-domain="gnome-tasks">
+    <key name="window-width" type="i">
+      <default>600</default>
+      <summary>Width of the window in pixels</summary>
+    </key>
+    <key name="window-height" type="i">
+      <default>400</default>
+      <summary>Height of the window in pixels</summary>
+    </key>
+    <key name="window-is-maximized" type="b">
+      <default>false</default>
+      <summary>true if the window is maximized</summary>
+    </key>
+  </schema>
+</schemalist>
